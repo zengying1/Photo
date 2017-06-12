@@ -15,6 +15,9 @@
 		7ECD97A61EEEC3FC0037C448 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ECD97A41EEEC3FC0037C448 /* LaunchScreen.storyboard */; };
 		7ECD97B11EEEC3FD0037C448 /* VideoPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECD97B01EEEC3FD0037C448 /* VideoPlayerTests.m */; };
 		7ECD97BC1EEEC3FD0037C448 /* VideoPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECD97BB1EEEC3FD0037C448 /* VideoPlayerUITests.m */; };
+		7ECD97CB1EEEC4270037C448 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ECD97CA1EEEC4270037C448 /* AVFoundation.framework */; };
+		7ECD97CD1EEEC43B0037C448 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ECD97CC1EEEC43B0037C448 /* CoreMedia.framework */; };
+		7ECD97CF1EEEC44A0037C448 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ECD97CE1EEEC44A0037C448 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7ECD97931EEEC3FC0037C448 /* VideoPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ECD97931EEEC3FC0037C448 /* Photo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Photo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ECD97971EEEC3FC0037C448 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7ECD97991EEEC3FC0037C448 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7ECD979A1EEEC3FC0037C448 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -45,12 +48,15 @@
 		7ECD97A21EEEC3FC0037C448 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7ECD97A51EEEC3FC0037C448 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7ECD97A71EEEC3FC0037C448 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7ECD97AC1EEEC3FC0037C448 /* VideoPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ECD97AC1EEEC3FC0037C448 /* PhotoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ECD97B01EEEC3FD0037C448 /* VideoPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoPlayerTests.m; sourceTree = "<group>"; };
 		7ECD97B21EEEC3FD0037C448 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7ECD97B71EEEC3FD0037C448 /* VideoPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ECD97B71EEEC3FD0037C448 /* PhotoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ECD97BB1EEEC3FD0037C448 /* VideoPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoPlayerUITests.m; sourceTree = "<group>"; };
 		7ECD97BD1EEEC3FD0037C448 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ECD97CA1EEEC4270037C448 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		7ECD97CC1EEEC43B0037C448 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		7ECD97CE1EEEC44A0037C448 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7ECD97CF1EEEC44A0037C448 /* QuartzCore.framework in Frameworks */,
+				7ECD97CD1EEEC43B0037C448 /* CoreMedia.framework in Frameworks */,
+				7ECD97CB1EEEC4270037C448 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,24 +90,25 @@
 		7ECD978A1EEEC3FC0037C448 = {
 			isa = PBXGroup;
 			children = (
-				7ECD97951EEEC3FC0037C448 /* VideoPlayer */,
-				7ECD97AF1EEEC3FC0037C448 /* VideoPlayerTests */,
-				7ECD97BA1EEEC3FD0037C448 /* VideoPlayerUITests */,
+				7ECD97951EEEC3FC0037C448 /* Photo */,
+				7ECD97AF1EEEC3FC0037C448 /* PhotoTests */,
+				7ECD97BA1EEEC3FD0037C448 /* PhotoUITests */,
 				7ECD97941EEEC3FC0037C448 /* Products */,
+				7ECD97C91EEEC4270037C448 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		7ECD97941EEEC3FC0037C448 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7ECD97931EEEC3FC0037C448 /* VideoPlayer.app */,
-				7ECD97AC1EEEC3FC0037C448 /* VideoPlayerTests.xctest */,
-				7ECD97B71EEEC3FD0037C448 /* VideoPlayerUITests.xctest */,
+				7ECD97931EEEC3FC0037C448 /* Photo.app */,
+				7ECD97AC1EEEC3FC0037C448 /* PhotoTests.xctest */,
+				7ECD97B71EEEC3FD0037C448 /* PhotoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7ECD97951EEEC3FC0037C448 /* VideoPlayer */ = {
+		7ECD97951EEEC3FC0037C448 /* Photo */ = {
 			isa = PBXGroup;
 			children = (
 				7ECD97991EEEC3FC0037C448 /* AppDelegate.h */,
@@ -111,7 +121,7 @@
 				7ECD97A71EEEC3FC0037C448 /* Info.plist */,
 				7ECD97961EEEC3FC0037C448 /* Supporting Files */,
 			);
-			path = VideoPlayer;
+			path = Photo;
 			sourceTree = "<group>";
 		};
 		7ECD97961EEEC3FC0037C448 /* Supporting Files */ = {
@@ -122,30 +132,40 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		7ECD97AF1EEEC3FC0037C448 /* VideoPlayerTests */ = {
+		7ECD97AF1EEEC3FC0037C448 /* PhotoTests */ = {
 			isa = PBXGroup;
 			children = (
 				7ECD97B01EEEC3FD0037C448 /* VideoPlayerTests.m */,
 				7ECD97B21EEEC3FD0037C448 /* Info.plist */,
 			);
-			path = VideoPlayerTests;
+			path = PhotoTests;
 			sourceTree = "<group>";
 		};
-		7ECD97BA1EEEC3FD0037C448 /* VideoPlayerUITests */ = {
+		7ECD97BA1EEEC3FD0037C448 /* PhotoUITests */ = {
 			isa = PBXGroup;
 			children = (
 				7ECD97BB1EEEC3FD0037C448 /* VideoPlayerUITests.m */,
 				7ECD97BD1EEEC3FD0037C448 /* Info.plist */,
 			);
-			path = VideoPlayerUITests;
+			path = PhotoUITests;
+			sourceTree = "<group>";
+		};
+		7ECD97C91EEEC4270037C448 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7ECD97CE1EEEC44A0037C448 /* QuartzCore.framework */,
+				7ECD97CC1EEEC43B0037C448 /* CoreMedia.framework */,
+				7ECD97CA1EEEC4270037C448 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7ECD97921EEEC3FC0037C448 /* VideoPlayer */ = {
+		7ECD97921EEEC3FC0037C448 /* Photo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7ECD97C01EEEC3FD0037C448 /* Build configuration list for PBXNativeTarget "VideoPlayer" */;
+			buildConfigurationList = 7ECD97C01EEEC3FD0037C448 /* Build configuration list for PBXNativeTarget "Photo" */;
 			buildPhases = (
 				7ECD978F1EEEC3FC0037C448 /* Sources */,
 				7ECD97901EEEC3FC0037C448 /* Frameworks */,
@@ -155,14 +175,14 @@
 			);
 			dependencies = (
 			);
-			name = VideoPlayer;
+			name = Photo;
 			productName = VideoPlayer;
-			productReference = 7ECD97931EEEC3FC0037C448 /* VideoPlayer.app */;
+			productReference = 7ECD97931EEEC3FC0037C448 /* Photo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7ECD97AB1EEEC3FC0037C448 /* VideoPlayerTests */ = {
+		7ECD97AB1EEEC3FC0037C448 /* PhotoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7ECD97C31EEEC3FD0037C448 /* Build configuration list for PBXNativeTarget "VideoPlayerTests" */;
+			buildConfigurationList = 7ECD97C31EEEC3FD0037C448 /* Build configuration list for PBXNativeTarget "PhotoTests" */;
 			buildPhases = (
 				7ECD97A81EEEC3FC0037C448 /* Sources */,
 				7ECD97A91EEEC3FC0037C448 /* Frameworks */,
@@ -173,14 +193,14 @@
 			dependencies = (
 				7ECD97AE1EEEC3FC0037C448 /* PBXTargetDependency */,
 			);
-			name = VideoPlayerTests;
+			name = PhotoTests;
 			productName = VideoPlayerTests;
-			productReference = 7ECD97AC1EEEC3FC0037C448 /* VideoPlayerTests.xctest */;
+			productReference = 7ECD97AC1EEEC3FC0037C448 /* PhotoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		7ECD97B61EEEC3FD0037C448 /* VideoPlayerUITests */ = {
+		7ECD97B61EEEC3FD0037C448 /* PhotoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7ECD97C61EEEC3FD0037C448 /* Build configuration list for PBXNativeTarget "VideoPlayerUITests" */;
+			buildConfigurationList = 7ECD97C61EEEC3FD0037C448 /* Build configuration list for PBXNativeTarget "PhotoUITests" */;
 			buildPhases = (
 				7ECD97B31EEEC3FD0037C448 /* Sources */,
 				7ECD97B41EEEC3FD0037C448 /* Frameworks */,
@@ -191,9 +211,9 @@
 			dependencies = (
 				7ECD97B91EEEC3FD0037C448 /* PBXTargetDependency */,
 			);
-			name = VideoPlayerUITests;
+			name = PhotoUITests;
 			productName = VideoPlayerUITests;
-			productReference = 7ECD97B71EEEC3FD0037C448 /* VideoPlayerUITests.xctest */;
+			productReference = 7ECD97B71EEEC3FD0037C448 /* PhotoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -207,6 +227,7 @@
 				TargetAttributes = {
 					7ECD97921EEEC3FC0037C448 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = HNTDU8GC77;
 						ProvisioningStyle = Automatic;
 					};
 					7ECD97AB1EEEC3FC0037C448 = {
@@ -221,7 +242,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7ECD978E1EEEC3FC0037C448 /* Build configuration list for PBXProject "VideoPlayer" */;
+			buildConfigurationList = 7ECD978E1EEEC3FC0037C448 /* Build configuration list for PBXProject "Photo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -234,9 +255,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7ECD97921EEEC3FC0037C448 /* VideoPlayer */,
-				7ECD97AB1EEEC3FC0037C448 /* VideoPlayerTests */,
-				7ECD97B61EEEC3FD0037C448 /* VideoPlayerUITests */,
+				7ECD97921EEEC3FC0037C448 /* Photo */,
+				7ECD97AB1EEEC3FC0037C448 /* PhotoTests */,
+				7ECD97B61EEEC3FD0037C448 /* PhotoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -300,12 +321,12 @@
 /* Begin PBXTargetDependency section */
 		7ECD97AE1EEEC3FC0037C448 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7ECD97921EEEC3FC0037C448 /* VideoPlayer */;
+			target = 7ECD97921EEEC3FC0037C448 /* Photo */;
 			targetProxy = 7ECD97AD1EEEC3FC0037C448 /* PBXContainerItemProxy */;
 		};
 		7ECD97B91EEEC3FD0037C448 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7ECD97921EEEC3FC0037C448 /* VideoPlayer */;
+			target = 7ECD97921EEEC3FC0037C448 /* Photo */;
 			targetProxy = 7ECD97B81EEEC3FD0037C448 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -424,9 +445,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = VideoPlayer/Info.plist;
+				DEVELOPMENT_TEAM = HNTDU8GC77;
+				INFOPLIST_FILE = Photo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Oreal51.VideoPlayer;
+				PRODUCT_BUNDLE_IDENTIFIER = Oreal51.Photo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -435,9 +457,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = VideoPlayer/Info.plist;
+				DEVELOPMENT_TEAM = HNTDU8GC77;
+				INFOPLIST_FILE = Photo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Oreal51.VideoPlayer;
+				PRODUCT_BUNDLE_IDENTIFIER = Oreal51.Photo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -450,7 +473,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Oreal51.VideoPlayerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoPlayer.app/VideoPlayer";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Photo.app/Photo";
 			};
 			name = Debug;
 		};
@@ -462,7 +485,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Oreal51.VideoPlayerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoPlayer.app/VideoPlayer";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Photo.app/Photo";
 			};
 			name = Release;
 		};
@@ -491,7 +514,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7ECD978E1EEEC3FC0037C448 /* Build configuration list for PBXProject "VideoPlayer" */ = {
+		7ECD978E1EEEC3FC0037C448 /* Build configuration list for PBXProject "Photo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7ECD97BE1EEEC3FD0037C448 /* Debug */,
@@ -500,29 +523,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7ECD97C01EEEC3FD0037C448 /* Build configuration list for PBXNativeTarget "VideoPlayer" */ = {
+		7ECD97C01EEEC3FD0037C448 /* Build configuration list for PBXNativeTarget "Photo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7ECD97C11EEEC3FD0037C448 /* Debug */,
 				7ECD97C21EEEC3FD0037C448 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		7ECD97C31EEEC3FD0037C448 /* Build configuration list for PBXNativeTarget "VideoPlayerTests" */ = {
+		7ECD97C31EEEC3FD0037C448 /* Build configuration list for PBXNativeTarget "PhotoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7ECD97C41EEEC3FD0037C448 /* Debug */,
 				7ECD97C51EEEC3FD0037C448 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		7ECD97C61EEEC3FD0037C448 /* Build configuration list for PBXNativeTarget "VideoPlayerUITests" */ = {
+		7ECD97C61EEEC3FD0037C448 /* Build configuration list for PBXNativeTarget "PhotoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7ECD97C71EEEC3FD0037C448 /* Debug */,
 				7ECD97C81EEEC3FD0037C448 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

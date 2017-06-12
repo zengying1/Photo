@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:VideoPlayer.xcodeproj">
+      location = "self:/Users/Oreal51/Documents/iOS/VideoPlayer/Photo.xcodeproj">
    </FileRef>
 </Workspace>

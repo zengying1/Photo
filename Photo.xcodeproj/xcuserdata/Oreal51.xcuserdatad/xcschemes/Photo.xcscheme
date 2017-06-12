@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7ECD97921EEEC3FC0037C448"
-               BuildableName = "VideoPlayer.app"
-               BlueprintName = "VideoPlayer"
-               ReferencedContainer = "container:VideoPlayer.xcodeproj">
+               BuildableName = "Photo.app"
+               BlueprintName = "Photo"
+               ReferencedContainer = "container:Photo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7ECD97AB1EEEC3FC0037C448"
-               BuildableName = "VideoPlayerTests.xctest"
-               BlueprintName = "VideoPlayerTests"
-               ReferencedContainer = "container:VideoPlayer.xcodeproj">
+               BuildableName = "PhotoTests.xctest"
+               BlueprintName = "PhotoTests"
+               ReferencedContainer = "container:Photo.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7ECD97B61EEEC3FD0037C448"
-               BuildableName = "VideoPlayerUITests.xctest"
-               BlueprintName = "VideoPlayerUITests"
-               ReferencedContainer = "container:VideoPlayer.xcodeproj">
+               BuildableName = "PhotoUITests.xctest"
+               BlueprintName = "PhotoUITests"
+               ReferencedContainer = "container:Photo.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7ECD97921EEEC3FC0037C448"
-            BuildableName = "VideoPlayer.app"
-            BlueprintName = "VideoPlayer"
-            ReferencedContainer = "container:VideoPlayer.xcodeproj">
+            BuildableName = "Photo.app"
+            BlueprintName = "Photo"
+            ReferencedContainer = "container:Photo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,11 +76,18 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7ECD97921EEEC3FC0037C448"
-            BuildableName = "VideoPlayer.app"
-            BlueprintName = "VideoPlayer"
-            ReferencedContainer = "container:VideoPlayer.xcodeproj">
+            BuildableName = "Photo.app"
+            BlueprintName = "Photo"
+            ReferencedContainer = "container:Photo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <EnvironmentVariables>
+         <EnvironmentVariable
+            key = "OS_ACTIVITY_MODE"
+            value = "disable"
+            isEnabled = "NO">
+         </EnvironmentVariable>
+      </EnvironmentVariables>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -95,9 +102,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7ECD97921EEEC3FC0037C448"
-            BuildableName = "VideoPlayer.app"
-            BlueprintName = "VideoPlayer"
-            ReferencedContainer = "container:VideoPlayer.xcodeproj">
+            BuildableName = "Photo.app"
+            BlueprintName = "Photo"
+            ReferencedContainer = "container:Photo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
